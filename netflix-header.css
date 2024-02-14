@@ -1,0 +1,120 @@
+.header{
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  right: 150px;
+  height: 50px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.netflix-logo-img{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 150px;
+  top: 0;
+}
+.netflix-button-div{
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+.netflix-button-div select,
+.footer-info-div select{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid gray;
+  color: rgb(236, 223, 223);
+  font-size: 15px;
+  font-weight: bold;
+  background: rgb(0 0 0 / 10%);
+  cursor: pointer;
+  margin-right: 10px;
+}
+select option{
+  color: black;
+  background-color: white;
+}
+.header-button2{
+  padding: 7px 18px;
+  border: none;
+  border-radius: 4px;
+  background-color:rgb(229, 9, 20);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.header-button2:hover{
+  background-color: rgb(190, 13, 22);
+}
+
+.footer{
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-info-div{
+  width: 1000px;
+  height: 260px;
+}
+.footer-text1{
+  display: block;
+  margin: 10px 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.footer-text1 .number{
+  text-decoration: underline;
+}
+.footer-continer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+ul{
+  color: rgba(255,255,255,0.7);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+ul li{
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.footer-info-div p{
+  color: rgba(255,255,255,0.7);
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.footer-info-div .header-button1{
+  padding: 5px 10px;
+  font-size: 12px;
+}
